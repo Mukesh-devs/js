@@ -1,0 +1,178 @@
+.container-1 {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 80px; /* Adjust height as needed */
+  }
+  
+  .box {
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+  }
+  
+  /* body {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  } */
+  .wide {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  
+  .narrow {
+    flex: 1;
+    font-size: 20px;
+    padding-left: 300px;
+    text-align: left;
+    line-height: 0.5;
+  }
+  .two {
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .c-no {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    /* font-weight: bold; */
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+  }
+  .board {
+    text-align: center;
+    font-size: 30px;
+    /* font-weight: bold; */
+    font-family: 'Arial', sans-serif;
+    line-height: 0.3;
+    letter-spacing: 4px;
+    /* margin-bottom: 3px; */
+    padding: 0px;
+  }
+
+  .need-bold {
+    font-weight: bold;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    margin-bottom: 5px;
+  }
+
+  .container-2 {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 270px;
+  }
+
+  .pass {
+    padding: 10px;
+    margin-left: 40px;
+    height: 150px;
+    width: 250px;
+    flex: 0;
+  }
+.qr {
+    padding: 5px;
+    height: 150px;
+    width: 250px;
+    flex: 0;
+    margin-left: auto; /* Pushes the element to the right end */
+}
+.middle-text {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    line-height: 0.2;
+    /* letter-spacing: 4px; */
+    flex: 2; /* Adjust flex value to place it in the middle */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  .cont {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    text-align: left;
+    line-height: 25px;
+    
+  }
+
+  .mark {
+    border: 1px solid black;
+    flex : 1;
+    min-width: 20px;
+  }
+  p {
+    padding-left: 50px;
+  }
+
+  .row {
+    text-align: left;
+    display: flex;
+    width: 100%;
+  }
+
+  .cell {
+    border: 1px solid black;
+    flex: 1;
+    min-height: 60px;
+  }
+
+  .cell.double {
+    flex: 2;
+  }
+
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 400px;
+    padding-left: 100px ;
+    width: 100px;
+  }
+
+  .middle-top {
+    flex: 3;
+    display: flex;
+  }
+
+  .middle-top .cell {
+    flex: 1;
+  }
+
+  .middle-bottom {
+    display: flex;
+  }
+
+  .middle-bottom .cell {
+    flex: 1;
+  }
+
+  .full-width {
+    width: 100%;
+    border: 1px solid black;
+    min-height: 60px;
+  }
+
+  .split-row {
+    display: flex;
+    width: 100%;
+  }
+
+  .split-row .cell {
+    flex: 1;
+    border: 1px solid black;
+    min-height: 60px;
+  }
